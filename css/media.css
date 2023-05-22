@@ -99,7 +99,7 @@
         width: 500px;
     }
     
-    .wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38 {
+    .wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38, .wp-image-26, .wp-image-29, .wp-image-32, .wp-image-120, .wp-image-41, .wp-image-44, .wp-image-47, .wp-image-50, .wp-image-58, .wp-image-61, .wp-image-64, .wp-image-67, .wp-image-70, .wp-image-73 {
         width: 473px;
         height: 478px;
     }
@@ -181,6 +181,12 @@
     .carousel {
         height: 50vh;
     }
+
+    /*Recipes-details*/
+    .wp-container-3, .wp-container-5 {
+        margin-top: 250px;
+    }
+    
 }
 
 @media (min-width: 800px) {
@@ -375,10 +381,11 @@
         height: 227px;
         }
      /*recipesDetailsPage*/
-
+    #recipe-placeholder {
+        text-align: center;
+    }
      .wp-container-5, .wp-container-3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: inline-flex;
         max-width: 1000px;
         margin: auto;
         
@@ -396,7 +403,7 @@
         width: 650px;
 
     }
-    .wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38 {
+    .wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38, .wp-image-26, .wp-image-29, .wp-image-32, .wp-image-120, .wp-image-41, .wp-image-44, .wp-image-47, .wp-image-50, .wp-image-58, .wp-image-61, .wp-image-64, .wp-image-67, .wp-image-70, .wp-image-73 {
         margin-top: 250px;
     }
     .wp-container-8, .wp-container-6 {
@@ -429,7 +436,7 @@
         width: 606px;
         height: 450px;
     }
-    .wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38 {
+    .wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38, .wp-image-26, .wp-image-29, .wp-image-32, .wp-image-120, .wp-image-41, .wp-image-44, .wp-image-47, .wp-image-50, .wp-image-58, .wp-image-61, .wp-image-64, .wp-image-67, .wp-image-70, .wp-image-73 {
         width: 517px;
         height: 490px;
     }

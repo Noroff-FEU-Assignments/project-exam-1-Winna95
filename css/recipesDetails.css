@@ -1,9 +1,8 @@
 
-.wp-container-3 {
-    display: inline-flex;
+.wp-container-3, .wp-container-5 {
     padding: 0;
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 200px;
     
 }
 .wp-block-post-date {
@@ -21,7 +20,7 @@
 .grid-one{
     background-color: #FBEDF1;
     width: 253px;
-    height: 360px;
+    height: 430px;
     margin: auto;
 }
 
@@ -30,7 +29,7 @@
     font-weight: 300;
     text-align: left;
     color: #C3496E;
-    margin-top: 250px;
+    margin-top: 70px;
     font-size: 24px;
     padding-top: 20px;
     width: 231px;
@@ -46,9 +45,10 @@ h1 {
     margin-left: 70px;
 }
 
-.wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38 {
+.wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38, .wp-image-26, .wp-image-29, .wp-image-32, .wp-image-120, .wp-image-41, .wp-image-44, .wp-image-47, .wp-image-50, .wp-image-58, .wp-image-61, .wp-image-64, .wp-image-67, .wp-image-70, .wp-image-73 {
     width: 273px;
     height: 278px;
+    object-fit: cover;
 }
 
 .smoothie-img {
