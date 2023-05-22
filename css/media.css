@@ -405,6 +405,9 @@
         width: 650px;
 
     }
+    .smoothie-img {
+        margin-top: 45px;
+    }
     .wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38, .wp-image-26, .wp-image-29, .wp-image-32, .wp-image-120, .wp-image-41, .wp-image-44, .wp-image-47, .wp-image-50, .wp-image-58, .wp-image-61, .wp-image-64, .wp-image-67, .wp-image-70, .wp-image-73 {
         margin-top: 250px;
     }
@@ -426,7 +429,7 @@
         height: 329px;
     }
     .carousel {
-        height: 75vh;
+        height: 100vh;
     }
     
     
