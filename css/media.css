@@ -94,6 +94,7 @@
     .grid-one {
         width: 553px;
         height: 430px;
+        padding-bottom: 20px;
     }
     .smoothie-header {
         width: 500px;
@@ -398,6 +399,7 @@
         width: 550px;
         height: 440px;
         margin-top: 300px;
+        padding-bottom: 30px;
     }
      .howTo-paragraph {
         width: 650px;
