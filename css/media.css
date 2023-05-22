@@ -1,0 +1,464 @@
+@media (min-width:450px) {
+    #carousel-posts {
+        gap: 40px;
+    }
+    .carousel-img {
+        width: 150px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
+@media (min-width:600px) {
+    #carousel-posts {
+        gap: 10px;
+    }
+    .hide {
+        display: block;
+        text-align: center;
+    }
+    .carousel-img {
+        width: 180px;
+        height: 130px;
+    }
+    .carousel {
+        height: 40vh;
+    }
+    .big-handwritten-header {
+        font-size: 48px;
+    }
+    .grid-img-homepage {
+        width: 442px;
+        height: 311px;
+    }
+    .see-recipes-paragraph {
+        font-size: 20px;
+        width: 426px;
+        margin-left: 20px;
+    }
+    .grid-template-one {
+        width: 450px;
+    }
+    .see-recipes-btn {
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    /*AboutPage*/
+    .about-paragraph {
+        width: 400px;
+        font-size: 20px;
+    }
+    .about-us-img {
+        width: 417px;
+        height: 333px;
+    }
+
+    /*ContactPage*/
+    form {
+        max-width: 500px;
+    }
+    .form-header {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    form input, form textarea {
+        font-size: 16px;
+        width: 350px;
+    }
+    label {
+        font-size: 20px;
+    }
+    .contact-button {
+        width: 135px;
+        font-size: 20px;
+    }
+    .contact-img {
+        width: 550px;
+        height: 395px;
+    }
+    .error {
+        font-size: 16px;
+    }
+    .success {
+        font-size: 16px;
+    }
+    /*recipesPage*/
+    #placeholder {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 600px;
+        margin: auto;
+    }
+    /*recipesDetailsPage*/
+    
+    .grid-one {
+        width: 553px;
+        height: 400px;
+    }
+    .smoothie-header {
+        width: 500px;
+    }
+    
+    .wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38 {
+        width: 473px;
+        height: 478px;
+    }
+    .info-paragraph {
+        max-width: 493px;
+    }
+    .time {
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .wp-block-post-date {
+        margin-left: 30px;
+        margin-bottom: 40px;
+        margin-top: -20px;
+    }
+    .font-size-20 {
+        font-size: 20px;
+    }
+    .font-size-24 {
+        font-size: 24px;
+    }
+    .howTo-paragraph {
+        width: 400px;
+    }
+
+}
+@media (min-width: 650px) {
+    nav {
+        display: block;
+        position: relative;
+        background-color: #ffff;
+        margin-top: 10px;
+        margin-left: 20px;
+        text-align: left;
+    }
+
+    nav li {
+        padding: 5px;
+
+    }
+    nav ul {
+        display: inline-flex;
+    }
+
+    li a {
+        color: black;
+        font-size: 20px;
+    }
+    .underline {
+        color: black;
+    }
+
+    li a:hover {
+        color: #C3496E;
+        font-weight: 600;
+    }
+
+    header label {
+        display: none;
+    }
+    #carousel-posts {
+        gap: 40px;
+        font-size: 18px;
+    }
+    .slide-btn {
+        font-size: 40px;
+        margin-top: 150px;
+    }
+    .hide {
+        text-align: center;
+    }
+    .carousel-header {
+        font-size: 24px;
+    }
+    .carousel-img {
+        width: 240px;
+        height: 150px;
+    }
+    .carousel {
+        height: 50vh;
+    }
+}
+
+@media (min-width: 800px) {
+    .logo {
+        width: 244px;
+        height: 80px;
+    }
+/*HomePage*/
+#carousel-posts {
+    gap: 70px;
+    font-size: 18px;
+}
+.carousel-img {
+    width: 280px;
+    height: 180px;
+}
+.grid-homepage {
+    max-width: 710px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding: 50px;
+    margin-bottom: 100px;
+}
+
+.grid-template-one {
+    background-color: #fff;
+    width: 350px;
+    grid-column: 1/1;
+    margin: auto;
+
+}
+
+.grid-img-homepage {
+    width: 320px;
+    height: 250px;
+
+}
+
+.grid-template-two {
+    grid-column: 2/2;
+    margin: auto;
+}
+
+.see-recipes-paragraph {
+    width: 320px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.see-recipes-btn {
+    font-size: 20px;
+    
+}
+
+/*AboutPage*/
+.about-grid-template {
+    margin: auto;
+    max-width: 780px;
+    grid-template-columns: 1fr 1fr;
+}
+.about-paragraph{
+    width: 450px;
+    margin-left: 40px;
+}
+.about-us-img {
+    margin-top: 70px;
+    width: 252px;
+    height: 252px;
+}
+/*recipesDetailsPage*/
+
+.wp-container-8, .wp-container-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1269px;
+    margin: auto;
+}
+
+}
+
+
+
+@media (min-width: 1000px) {
+    /*HomePage*/
+    .slide-btn {
+        margin-top: 180px;
+    }
+    
+    #carousel-posts {
+        gap: 100px;
+        font-size: 20px;
+    }
+    .carousel-img {
+        width: 360px;
+        height: 210px;
+    }
+    .carousel {
+        height: 60vh;
+    }
+    /*ContactPage*/
+    form {
+        max-width: 879px;
+    }
+    form input, form textarea {
+        width: 527px;
+    }
+
+    .contact-img {
+        width: 782px;
+        height: 489px;
+    }
+    /*recipesPage*/
+    #placeholder {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 900px;
+        
+    }
+    
+   
+}
+
+@media (min-width: 1200px) {
+    /*HomePage*/
+    #carousel-posts {
+        gap: 120px;
+    }
+    .carousel-img {
+        width: 466px;
+        height: 209px;
+    }
+    .header-img {
+        height: 438px;
+    }
+
+    .grid-homepage {
+        max-width: 1030px;
+        margin: auto;
+        margin-bottom: 100px;
+    }
+
+    .grid-template-one {
+        width: 593px;
+        padding: 30px 10px;
+    }
+
+    .see-recipes-paragraph {
+        width: 488px;
+        margin-left: 50px;
+    }
+
+    .grid-img-homepage {
+        width: 411px;
+        height: 359px;
+        
+    
+    }
+    .see-recipes-btn {
+        margin-left: 50px;
+    }
+    /*AboutPage*/
+    .about-grid-template {
+        margin: auto;
+        max-width: 1100px;
+        margin-bottom: 50px;
+    }
+    .about-paragraph{
+        margin-top: 130px;
+        margin-bottom: -110px;
+        width: 500px;
+    }
+    .about-us-img {
+        width: 452px;
+        height: 452px;
+    }
+    /*recipesPage*/
+    #placeholder {
+        width: 1150px;
+        
+    }
+    .recipes-header {
+        font-size: 18px;
+        width: 300px;
+        margin-left: 15px;
+    }
+    .read-more-btn {
+        margin-left: 15px;
+        font-size: 18px;
+    }
+    .thumbnail-img {
+        width: 354px;
+        height: 227px;
+        }
+     /*recipesDetailsPage*/
+
+     .wp-container-5, .wp-container-3 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1000px;
+        margin: auto;
+        
+     }
+
+     .smoothie-header {
+        margin-top: 30px;
+     }
+     .grid-one {
+        width: 550px;
+        height: 420px;
+        margin-top: 300px;
+    }
+     .howTo-paragraph {
+        width: 650px;
+
+    }
+    .wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38 {
+        margin-top: 250px;
+    }
+    .wp-container-8, .wp-container-6 {
+        margin-bottom: 200px;
+    }
+    
+}
+@media (min-width: 1512px) {
+    /*HomePage*/
+    #carousel-posts {
+        gap: 150px;
+    }
+    .slide-btn {
+        margin-top: 230px;
+    }
+    .carousel-img {
+        width: 586px;
+        height: 329px;
+    }
+    .carousel {
+        height: 75vh;
+    }
+    
+    
+    /*recipeDetailsPage*/
+    .wp-container-5, .wp-container-3 {
+        max-width: 1200px;
+     }
+     .grid-one {
+        width: 606px;
+        height: 450px;
+    }
+    .wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38 {
+        width: 517px;
+        height: 490px;
+    }
+    .time {
+        margin-left: 60px;
+
+    }
+    .wp-block-post-date {
+        margin-left: 60px;
+    }
+    .smoothie-header {
+        margin-left: 60px;
+    }
+     /*recipesPage*/
+     #placeholder {
+        width: 1450px;
+        
+    }
+    .recipes-header {
+        font-size: 20px;
+        width: 400px;
+        margin-left: 50px;
+    }
+    .read-more-btn {
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .thumbnail-img {
+        width: 374px;
+        height: 247px;
+        }
+}

@@ -1,0 +1,137 @@
+
+.wp-container-3 {
+    display: inline-flex;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 50px;
+    
+}
+.wp-block-post-date {
+    letter-spacing: 3px;
+    margin-left: 75px;
+}
+.info-paragraph {
+    max-width: 199px;
+    line-height: 30px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.grid-one{
+    background-color: #FBEDF1;
+    width: 253px;
+    height: 360px;
+    margin: auto;
+}
+
+.big-handwritten-header {
+    font-family: 'Rochester', cursive;
+    font-weight: 300;
+    text-align: left;
+    color: #C3496E;
+    margin-top: 250px;
+    font-size: 24px;
+    padding-top: 20px;
+    width: 231px;
+    margin-left: 20px;
+
+}
+
+h1 {
+    display: none;
+}
+
+.time {
+    margin-left: 70px;
+}
+
+.wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38 {
+    width: 273px;
+    height: 278px;
+}
+
+.smoothie-img {
+    text-align: center;
+}
+.smoothie-img:hover {
+    opacity: 0.7;
+}
+
+.bold-header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.light-header {
+    font-weight: 400;
+    width: 273px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.howTo-paragraph {
+    width: 273px;
+    margin: 20px auto;
+
+}
+
+.ingredients-list {
+    width: 273px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.font-size-14 {
+    font-size: 14px;
+}
+
+.font-size-16 {
+    font-size: 16px;
+}
+
+.wp-container-8 {
+    margin-bottom: 200px;
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(53, 51, 51); 
+    background-color: rgba(41, 39, 39, 0.9); 
+  }
+
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  @keyframes spinner {
+    to {transform: rotate(360deg);}
+  }
+   
+  .spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 10px solid #fff1f6;
+    border-top-color: #c8347bdb;
+    animation: spinner .6s linear infinite;
+  }

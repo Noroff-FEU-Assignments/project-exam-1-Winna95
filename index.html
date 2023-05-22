@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Healthy smoothie Bowl recipes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,0 " />
+    <title>Smoothie Bowl Blog | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rochester&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b318972c4d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <script type="module" src="js/index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <section class="navbar">
+        <div class="logo-img">
+          <a href="index.html">
+            <img src="images/SmoothieBowlLogo.png" alt="logo" class="logo" />
+          </a>
+        </div>
+        <div class="menu-hamburger-icon">
+          <label for="hamburger-menu"
+            ><span class="hidden">hamburger menu</span
+            ><i class="fas fa-bars menu-icon"></i
+          ></label>
+          <input type="checkbox" id="hamburger-menu" />
+          <nav>
+            <ul>
+              <li class="underline"><a href="index.html">Home</a></li>
+              <li><a href="recipes.html">Recipes</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main>
+      <img
+        src="images/banana-slices-plate_209303-77.jpg"
+        alt="Img of Smoothie Bowl"
+        class="header-img"
+      />
+      <h1 class="big-handwritten-header">Healthy Smoothie Bowl Recipes</h1>
+      <section class="carousel">
+        <div class="slider">
+          <h2 class="carousel-header">Latest posts:</h2>
+
+          <div id="carousel-posts">
+            <div class="spinner"></div>
+          </div>
+          <i class="fa-solid fa-chevron-right slide-btn next-btn"></i>
+          <i class="fa-solid fa-chevron-left slide-btn prev-btn"></i>
+        </div>
+      </section>
+      <div class="backgroundcolor-pink">
+        <section class="grid-homepage">
+          <div class="grid-template-one">
+            <p class="see-recipes-paragraph">
+              Healthy, simple and incredibly good recipes for smoothie bowls,
+              for those who want a healthy lifestyle without spending too much
+              time in the kitchen.
+            </p>
+            <button class="see-recipes-btn">See all recipes ➜</button>
+          </div>
+          <div class="grid-template-two">
+            <img
+              src="images/lou-lou-b-photo-ZavNEhIrtxg-unsplash.jpg"
+              alt="smoothie bowls"
+              class="grid-img-homepage"
+            />
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

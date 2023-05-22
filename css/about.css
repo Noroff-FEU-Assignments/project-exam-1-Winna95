@@ -1,0 +1,34 @@
+.underline {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.big-handwritten-header {
+    font-family: 'Rochester', cursive;
+    font-weight: 300;
+    text-align: center;
+    color: #C3496E;
+    margin-top: 250px;
+    font-size: 24px;
+}
+.about-grid-template {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.about-paragraph {
+    width: 258px;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.about-us-img {
+    width: 257px;
+    height: 273px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}

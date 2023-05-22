@@ -1,0 +1,86 @@
+.underline {
+    text-decoration: underline;
+    color: #fff;
+}
+.header-img {
+    width: 100%;
+    min-height: 200px;
+    margin: 0;
+    margin-top: 220px;
+    object-fit: cover;
+    
+}
+.big-handwritten-header {
+    font-family: 'Rochester', cursive;
+    font-weight: 300;
+    text-align: center;
+    color: #C3496E;
+    font-size: 24px;
+}
+
+.all-recipes-grid {
+    text-align: center;
+}
+
+.recipes-header {
+    width: 220px;
+    margin: auto;
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #C3496E;
+    display: block;
+    
+}
+
+.read-more-btn {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    text-decoration: underline;
+    display: block;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    text-align: left;
+    width: 220px;
+}
+.thumbnail-img {
+object-fit: cover;
+width: 227px;
+height: 147px;
+}
+
+.fa-angles-down {
+   text-align: center;
+   color: #C3496E;
+   font-size: 40px;
+   margin-bottom: 50px;
+   
+}
+
+.down-icon {
+    text-align: center;
+    margin: 30px auto;
+}
+
+
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+  }
+   
+  .spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 700px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 10px solid #fff1f6;
+    border-top-color: #c8347bdb;
+    animation: spinner .6s linear infinite;
+  }
+
