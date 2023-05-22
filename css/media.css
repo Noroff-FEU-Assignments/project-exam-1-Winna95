@@ -21,7 +21,7 @@
         height: 130px;
     }
     .carousel {
-        height: 40vh;
+        height: 70vh;
     }
     .big-handwritten-header {
         font-size: 48px;
@@ -180,7 +180,7 @@
         height: 150px;
     }
     .carousel {
-        height: 50vh;
+        height: 90vh;
     }
 
     /*Recipes-details*/
@@ -286,7 +286,7 @@
         height: 210px;
     }
     .carousel {
-        height: 60vh;
+        height: 100vh;
     }
     /*ContactPage*/
     form {
@@ -429,7 +429,7 @@
         height: 329px;
     }
     .carousel {
-        height: 100vh;
+        height: 120vh;
     }
     
     
