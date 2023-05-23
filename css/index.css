@@ -31,11 +31,11 @@
     margin-bottom: -50px;
 }
 .carousel {
-    height: 40vh;
-    place-items: center;
     background-color: #FBEDF1;
+    place-items: center;
     max-width: 1512px;
-    margin-bottom: 100px;
+    height: 10em;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -46,7 +46,6 @@
 #carousel-posts {
     width: 100%;
     max-width: 1512px;
-    height: 350px;
     position: absolute;
     transition: all 0.5s;
     display: flex;
@@ -130,6 +129,7 @@
 .backgroundcolor-pink{
     background-color: #FBEDF1;
     max-width: 1512px;
+    margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
     
