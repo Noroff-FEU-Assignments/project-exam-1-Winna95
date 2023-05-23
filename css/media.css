@@ -1,4 +1,7 @@
 @media (min-width:450px) {
+    .header-img {
+        min-height: 250px;
+    }
     #carousel-posts {
         gap: 40px;
     }
@@ -9,6 +12,10 @@
     }
 }
 @media (min-width:600px) {
+    .header-img {
+        min-height: 300px;
+    }
+    
     #carousel-posts {
         gap: 10px;
     }
@@ -195,6 +202,9 @@
         width: 244px;
         height: 80px;
     }
+    .header-img {
+        min-height: 400px;
+    }
 /*HomePage*/
 #carousel-posts {
     gap: 70px;
@@ -311,6 +321,9 @@
 }
 
 @media (min-width: 1200px) {
+    .spinner {
+        margin-top: 900px;
+    }
     /*HomePage*/
     #carousel-posts {
         gap: 120px;
@@ -320,7 +333,7 @@
         height: 209px;
     }
     .header-img {
-        height: 438px;
+        height: 500px;
     }
 
     .grid-homepage {

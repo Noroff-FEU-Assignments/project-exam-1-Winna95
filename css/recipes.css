@@ -4,9 +4,10 @@
 }
 .header-img {
     width: 100%;
-    min-height: 200px;
+    opacity: 80%;
+    height: 200px;
     margin: 0;
-    margin-top: 220px;
+    margin-top: 180px;
     object-fit: cover;
     
 }
@@ -44,6 +45,10 @@
     text-align: left;
     width: 220px;
 }
+.read-more-btn:hover {
+    color: #C3496E;
+    transform: scale(1.1);
+}
 .thumbnail-img {
 object-fit: cover;
 width: 227px;
@@ -57,7 +62,10 @@ height: 147px;
    margin-bottom: 50px;
    
 }
-
+.fa-angles-down:hover {
+    opacity: 80%;
+    transform: scale(1.1);
+}
 .down-icon {
     text-align: center;
     margin: 30px auto;
@@ -76,11 +84,12 @@ height: 147px;
     left: 50%;
     width: 100px;
     height: 100px;
-    margin-top: 700px;
-    margin-left: -10px;
+    margin-top: 600px;
+    margin-left: -50px;
     border-radius: 50%;
     border: 10px solid #fff1f6;
     border-top-color: #c8347bdb;
     animation: spinner .6s linear infinite;
   }
 
+  

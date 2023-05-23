@@ -56,6 +56,7 @@ h1 {
 }
 .smoothie-img:hover {
     opacity: 0.7;
+    transform: scale(1.1);
 }
 
 .bold-header {
@@ -129,7 +130,7 @@ h1 {
     width: 100px;
     height: 100px;
     margin-top: 200px;
-    margin-left: -10px;
+    margin-left: -50px;
     border-radius: 50%;
     border: 10px solid #fff1f6;
     border-top-color: #c8347bdb;

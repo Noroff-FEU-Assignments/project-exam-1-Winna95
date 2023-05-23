@@ -4,6 +4,7 @@ body {
     min-height: 20vh;
     font-weight: 300;
     margin: auto;
+    max-width: 2000px;
 }
 .logo {
     width: 200px;
@@ -11,6 +12,7 @@ body {
 }
 .logo:hover {
     opacity: 50%;
+    transform: scale(1.1);
 }
 .hidden {
     display: none;

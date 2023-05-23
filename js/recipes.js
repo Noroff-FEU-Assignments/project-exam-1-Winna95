@@ -62,4 +62,5 @@ seeMoreBtn.addEventListener("click", function() {
     }
     getposts().then(posts => {createPostsHtml(posts)});
     
+    
 })
