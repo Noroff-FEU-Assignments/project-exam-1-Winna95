@@ -90,6 +90,7 @@
     border-radius: 50%;
     z-index: 10px;
     cursor: pointer;
+    
 }
 .slide-btn:hover {
     opacity: 50%;
@@ -112,7 +113,6 @@
     right: 2%;
     color: #C3496E;
     font-size: 20px;
-    
 }
 
 .white-background {
@@ -172,11 +172,13 @@
     font-size: 14px;
     border-radius: 10px;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 .see-recipes-btn:hover {
     opacity: 50%;
     transform: scale(1.1);
+    
 }
 @keyframes spinner {
     to {transform: rotate(360deg);}

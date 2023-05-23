@@ -53,6 +53,7 @@ h1 {
 
 .smoothie-img {
     text-align: center;
+    cursor: pointer;
 }
 .smoothie-img:hover {
     opacity: 0.7;
