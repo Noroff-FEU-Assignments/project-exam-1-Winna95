@@ -293,6 +293,9 @@
         width: 360px;
         height: 210px;
     }
+    .carousel {
+        height: 60vh;
+    }
    
     /*ContactPage*/
     form {
@@ -328,6 +331,7 @@
         width: 466px;
         height: 209px;
     }
+    
     .header-img {
         height: 500px;
     }
@@ -438,7 +442,9 @@
         height: 329px;
     }
     
-    
+    .carousel {
+        height: 75vh;
+    }
     
     /*recipeDetailsPage*/
     .wp-container-5, .wp-container-3 {
