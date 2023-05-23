@@ -7,12 +7,14 @@
 }
 .wp-block-post-date {
     letter-spacing: 3px;
+    text-align: left;
     margin-left: 75px;
 }
 .info-paragraph {
     max-width: 199px;
     line-height: 30px;
     margin: auto;
+    text-align: left;
     margin-top: 20px;
 
 }
@@ -43,6 +45,7 @@ h1 {
 
 .time {
     margin-left: 70px;
+    text-align: left;
 }
 
 .wp-image-16, .wp-image-223, .wp-image-23, .wp-image-38, .wp-image-26, .wp-image-29, .wp-image-32, .wp-image-120, .wp-image-41, .wp-image-44, .wp-image-47, .wp-image-50, .wp-image-58, .wp-image-61, .wp-image-64, .wp-image-67, .wp-image-70, .wp-image-73 {
@@ -75,6 +78,7 @@ h1 {
 .howTo-paragraph {
     width: 273px;
     margin: 20px auto;
+    text-align: left;
 
 }
 
@@ -82,6 +86,7 @@ h1 {
     width: 273px;
     margin: auto;
     margin-bottom: 5px;
+    text-align: left;
 }
 
 .font-size-14 {

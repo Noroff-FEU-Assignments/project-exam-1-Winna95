@@ -28,7 +28,7 @@ function createPostsHtml(posts) {
         return getImgThumbnailUrl(urlToMedia).then(resolvedUrl => {
             const htmlForPost = `
             <div class="all-recipes">
-            <img src="${resolvedUrl}" alt="${title}" class="thumbnail-img">
+            <a href="/recipesDetails.html?postId=${post.id}"> <img src="${resolvedUrl}" alt="${title}" class="thumbnail-img"></a>
             <h2 class="recipes-header">${title}</h2>
             <a href="/recipesDetails.html?postId=${post.id}" class="read-more-btn">Read more
             </a>
@@ -44,8 +44,8 @@ function createPostsHtml(posts) {
         console.log(resolvedHtmlForPosts);
         const htmlForAllPosts = resolvedHtmlForPosts.join(' ');
         document.querySelector("#placeholder").innerHTML=htmlForAllPosts;
-        const spinner = document.querySelector(".spinner");
-        spinner.style.display = 'none'
+        const arrowDown = document.querySelector(".down-icon");
+        arrowDown.style.display = "block"
     
         console.log(posts);
     })

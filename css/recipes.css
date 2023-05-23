@@ -55,6 +55,11 @@ width: 227px;
 height: 147px;
 }
 
+.thumbnail-img:hover {
+    opacity: 80%;
+    transform: scale(1.1);
+}
+
 .fa-angles-down {
    text-align: center;
    color: #C3496E;
@@ -71,7 +76,7 @@ height: 147px;
 .down-icon {
     text-align: center;
     margin: 30px auto;
-    
+    display: none;
 }
 
 
