@@ -8,17 +8,36 @@ const allPostUrl = fullPostsUrl + "?per_page=100"
 console.log(fullPostsUrl)
 
 async function getposts() {
+    try {
     const response = await fetch (fullPostsUrl);
     const posts = await response.json();
     return posts;
+    } catch (error) {
+        console.error("An error has occured", error);
+        const errorMessageHtmlElement = document.querySelector(".error-message");
+        errorMessageHtmlElement.style.display = "block";
+        errorMessageHtmlElement.innerHTML = `⚠ unable to load blog posts data`;
+        const spinner = document.querySelector(".spinner");
+        spinner.style.display = 'none'
+        return Promise.reject();
+    }
     
 }
 getposts().then(posts => {createPostsHtml(posts)});
 
 async function getImgThumbnailUrl(mediaUrl) {
+    try {
     const response = await fetch (mediaUrl);
     const medias = await response.json();
     return medias[0].media_details.sizes.full.source_url;
+    }
+    catch (error) {
+        console.error("An error has occured", error);
+        const errorMessageHtmlElement = document.querySelector(".error-message");
+        errorMessageHtmlElement.style.display = "block";
+        errorMessageHtmlElement.innerHTML = `unable to load blog posts data`;
+        return Promise.reject();
+    }
 }
 
 function createPostsHtml(posts) {

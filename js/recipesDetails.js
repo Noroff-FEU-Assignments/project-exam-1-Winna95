@@ -9,9 +9,19 @@ const fullPostUrl = apiBase + postsBase + "/" + postId;
 let imgUrlPromise;
 
 async function getpost() {
+    try {
     const response = await fetch (fullPostUrl);
     const post = await response.json();
     return post;    
+    } catch (error) {
+        console.error("An error has occured", error);
+        const errorMessageHtmlElement = document.querySelector(".error-recipeDetails");
+        errorMessageHtmlElement.style.display = "block";
+        errorMessageHtmlElement.innerHTML = `⚠ unable to load blog posts data`;
+        const spinner = document.querySelector(".spinner");
+        spinner.style.display = 'none'
+        return Promise.reject();
+    }
 }
 getpost().then(post => {
     createPostHtml(post);
@@ -20,9 +30,18 @@ getpost().then(post => {
 });
 
 async function getImgUrl(mediaUrl) {
+    try {
     const response = await fetch (mediaUrl);
     const medias = await response.json();
     return medias[0].media_details.sizes.full.source_url;
+    }
+    catch (error) {
+        console.error("An error has occured", error);
+        const errorMessageHtmlElement = document.querySelector(".error-message");
+        errorMessageHtmlElement.style.display = "block";
+        errorMessageHtmlElement.innerHTML = `unable to load blog posts data`;
+        return Promise.reject();
+    }
 }
 
 function createPostHtml(post) {

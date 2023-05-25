@@ -11,14 +11,31 @@ let endIdx = 2
 let posts = [];
 
 async function getposts() {
-    const response = await fetch (allPostUrl);
-    return await response.json();    
+    try {
+        const response = await fetch (allPostUrl);
+        return await response.json(); 
+    } catch (error) {
+        console.error("An error has occured", error);
+        const errorMessageHtmlElement = document.querySelector(".error-message");
+        errorMessageHtmlElement.style.display = "block";
+        errorMessageHtmlElement.innerHTML = `⚠ unable to load blog posts data`;
+        const spinner = document.querySelector(".spinner");
+        spinner.style.display = 'none'
+        return Promise.reject();
+    }
 }
 async function getImgThumbnailUrl(mediaUrl) {
+    try {
     const response = await fetch (mediaUrl);
     const medias = await response.json();
-    console.log("medias", medias)
     return medias[0].media_details.sizes.full.source_url;
+    } catch (error) {
+        console.error("An error has occured", error);
+        const errorMessageHtmlElement = document.querySelector(".error-message");
+        errorMessageHtmlElement.style.display = "block";
+        errorMessageHtmlElement.innerHTML = `unable to load blog posts data`;
+        return Promise.reject();
+    }
 }
 getposts().then(postsResponse => {
 
@@ -59,7 +76,6 @@ function cretePostHtml(postsToShow){
         htmlForCarousel = htmlForCarousel + `<div>
         <a href="/recipesDetails.html?postId=${postToShow.id}"> <img src="${postToShow.imageUrl}" alt="${postToShow.title.rendered}" class="carousel-img"></a>
         <a href="/recipesDetails.html?postId=${postToShow.id}"><p class="white-background hide">${postToShow.title.rendered}</p></a></div>`     
-        console.log(postToShow)    
     })
     carousel.innerHTML = htmlForCarousel;
     
@@ -77,8 +93,6 @@ function rightArrowClicked(){
         endIdx = 2
     }
     showPostsForCurrentIndexes();
-    console.log('start index is: ', startIdx);
-    console.log('end index is: ', endIdx);
 }
 
 function leftArrowClicked(){
@@ -90,8 +104,6 @@ function leftArrowClicked(){
         startIdx = 8;
         endIdx = 10;
     }
-    console.log('start index is: ', startIdx);
-    console.log('end index is: ', endIdx);
 
     showPostsForCurrentIndexes();
 }
