@@ -14,7 +14,7 @@ document.forms["contact-form"].onsubmit = function(event) {
             nameErrorHtmlElement, "The name must be at least 5 characters");
         isValid = false
     } else {
-        nameErrorHtmlElement.innerHTML = ""
+        nameErrorHtmlElement.innerHTML = "";
     }
     const emailErrorHtmlElement = document.querySelector(".email-error")
     if(this.email.value.trim() === "") {
