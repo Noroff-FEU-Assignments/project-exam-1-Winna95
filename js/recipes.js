@@ -5,7 +5,7 @@ const postsBase = "/wp-json/wp/v2/posts";
 const fullPostsUrl = apiBase + postsBase;
 const allPostUrl = fullPostsUrl + "?per_page=100"
 
-console.log(fullPostsUrl)
+
 
 async function getposts() {
     try {
@@ -53,20 +53,20 @@ function createPostsHtml(posts) {
             </a>
             </div>
             `
-            console.log(htmlForPost);
+            
             return htmlForPost;
         });
         
     });
 
     Promise.all(htmlForPostsPromises).then(resolvedHtmlForPosts => {
-        console.log(resolvedHtmlForPosts);
+        
         const htmlForAllPosts = resolvedHtmlForPosts.join(' ');
         document.querySelector("#placeholder").innerHTML=htmlForAllPosts;
         const arrowDown = document.querySelector(".down-icon");
         arrowDown.style.display = "block"
     
-        console.log(posts);
+        
     })
 }
 

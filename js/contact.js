@@ -64,7 +64,6 @@ document.forms["contact-form"].onsubmit = function(event) {
         const successHtmlElement = document.querySelector(".success");
         successHtmlElement.innerHTML = "Message successfully sent";
         successHtmlElement.style.display = "block";
-        console.log(isValid);
         document.querySelector("#contact-form").reset(); 
         setTimeout(function() {
             document.querySelector(".success").style.display = "none";

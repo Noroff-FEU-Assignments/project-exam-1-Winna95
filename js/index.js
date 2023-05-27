@@ -4,7 +4,7 @@ const postsBase = "/wp-json/wp/v2/posts";
 
 const fullPostsUrl = apiBase + postsBase;
 const allPostUrl = fullPostsUrl + "?per_page=10"
-console.log(allPostUrl);
+
 
 let startIdx = 0;
 let endIdx = 2
@@ -83,7 +83,6 @@ function cretePostHtml(postsToShow){
 };
 
 function rightArrowClicked(){
-    console.log('entered rightArrowClicked' );
     startIdx = startIdx + 2;
     endIdx = endIdx + 2;
     //Based on query param "per_page" having been set to 10,
